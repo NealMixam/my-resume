@@ -1,14 +1,151 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Резюме фронтенд-разработчика</title>
-    <script src="index-iTLYxH_R.js"></script>
-    <link rel="stylesheet" href="index-zWCzofSk.css">
   </head>
   <body>
-    <div id="root"></div>
+    <header class="header container">
+      <div class="header__content">
+        <div class="header__left">
+          <nav>
+            <a href="#about">Обо мне</a><a href="#projects">Проекты</a
+            ><a href="#contact">Контакты</a>
+          </nav>
+          <h1>Максимилиан Рогулин</h1>
+          <p>
+            Привет! Люблю решать интересные задачи, активно обучаюсь, улучшаю
+            себя и мир вокруг. Адекватно воспринимаю замечания, люблю работать в
+            команде, самостоятелен, не пройду мимо если что-то не так лежит или
+            кому-то нужна помощь. Ищу проект, в котором внимательны к людям и
+            продукту, потому что сам стараюсь воплощать эти ценности. Буду рад
+            обсудить любые предложения!
+          </p>
+        </div>
+        <div class="header__right">
+          <img src="assets/header__image.jpg" alt="" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="projects" class="projects container">
+        <h2>Проекты</h2>
+        <ul class="projects__list">
+          <li class="projects__item">
+            <div><a href="https://online-london.com/">London Express</a></div>
+            <p>Разработка и поддержка сайтов сети школ иностранных языков</p>
+            <br />
+            <p>Что делал:</p>
+            <ul>
+              <li>
+                участвовал в разработке личного кабинета для онлайн-занятий на
+                Next.js и Laravel;
+              </li>
+              <li>
+                работал с Bitrix Framework — делал новые страницы для сайтов
+                компании, описывал логику на PHP, исправлял баги;
+              </li>
+              <li>
+                отвечал за работу с CMS — заполнял данными, делал новый
+                функционал для удобства коллег;
+              </li>
+              <li>поддерживал код проектов — работал с webpack и GitLab</li>
+            </ul>
+            <br />
+            <p>Чего достиг:</p>
+            <ul>
+              <li>сделал адаптивность сайта London Express Schools;</li>
+              <li>
+                сверстал несколько страниц для сайта компании — несколько
+                лендингов для партнёров компании и внутренние страницы с новым
+                дизайном;
+              </li>
+              <li>вёл блог компании — сверстал и опубликовал 40+ статей</li>
+            </ul>
+            <div class="projects__skills">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>JavaScript</div>
+              <div>React</div>
+              <div>Next.js</div>
+              <div>PHP</div>
+              <div>Bitrix Framework</div>
+              <div>GitLab</div>
+            </div>
+          </li>
+          <li class="projects__item">
+            <div><a href="https://2-up.ru/">2UP</a></div>
+            <p>Проект: NDA - крупнейший job-сайт в России и СНГ</p>
+            <ul>
+              <li>Верстка брендированных страниц по макетам;</li>
+              <li>адаптивная и кроссбраузерная верстка страниц по макетам;</li>
+              <li>Работа с CSS анимациями;</li>
+              <li>Работа с JavaScript;</li>
+              <li>Работа в Figma;</li>
+              <li>Поддержка и развитие существующих страниц;</li>
+              <li>Тесное взаимодействие с PM и дизайнерами проекта</li>
+            </ul>
+            <div class="projects__skills">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>JavaScript</div>
+              <div>Jira</div>
+              <div>GitLab</div>
+            </div>
+          </li>
+          <li class="projects__item">
+            <div><a href="https://365mg.ru/">365 Media Group</a></div>
+            <p>Разработка веб-сайтов для круных компаний</p>
+            <ul>
+              <li>Верстка страниц по макетам в Figma;</li>
+              <li>Адаптивная и кроссбраузерная верстка;</li>
+              <li>Работа с CSS анимациями;</li>
+              <li>Написание кода на JavaScript;</li>
+              <li>Поддержка и развитие существующих проектов;</li>
+              <li>Взаимодействие с PM и дизайнерами проекта</li>
+            </ul>
+            <div class="projects__skills">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>JavaScript</div>
+              <div>Bitrix Framework</div>
+              <div>GitLab</div>
+            </div>
+          </li>
+          <li class="projects__item">
+            <div><a href="https://bnelly.ru/">Bnelly Digital</a></div>
+            <ul>
+              <li>Разработка веб-сайтов для клиентов компании</li>
+              <li>Внесение правок в проекты клиентов</li>
+              <li>Адаптивная вёрстка на HTML, CSS</li>
+              <li>Разработка функционала на JavaScript</li>
+              <li>Поддержка и развитие проектов на Bitrix Framework</li>
+              <li>Поддержка и сопровождение кодовой базы</li>
+              <li>Взаимодействие с менеджерами и дизайнерами</li>
+            </ul>
+            <div class="projects__skills">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>JavaScript</div>
+              <div>PHP</div>
+              <div>Bitrix Framework</div>
+              <div>Python</div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="contact" class="container contacts">
+        <h2>Контакты</h2>
+        <p><a href="https://t.me/neal_mixam">Telegram</a></p>
+        <p>
+          Email:
+          <a href="mailto:maksimilianrogulin@yandex.ru"
+            >maksimilianrogulin@yandex.ru</a
+          >
+        </p>
+      </section>
+    </main>
   </body>
 </html>
