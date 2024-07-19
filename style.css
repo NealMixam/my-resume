@@ -109,10 +109,10 @@ a:hover {
 
 .header__image {
   position: relative;
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   box-sizing: border-box;
-  background: url("header__image.webp") center/cover no-repeat;
+  background: url("header__image.jpg") center/cover no-repeat;
   border-radius: 10px;
 }
 
@@ -206,6 +206,7 @@ a:hover {
 @media (max-width: 500px) {
   .header {
     padding: 1em;
+    border: none;
   }
 
   .header__left {
@@ -218,6 +219,7 @@ a:hover {
 
   .header__image {
     width: 100%;
+    height: 450px;
   }
 
   .projects__item {
