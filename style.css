@@ -12,6 +12,10 @@ footer {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+ul {
+  line-height: 140%;
+}
+
 main {
   padding-top: 60px;
   margin: 0 20px;
