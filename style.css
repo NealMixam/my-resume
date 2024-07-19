@@ -55,17 +55,20 @@ nav a {
   padding: 8px;
   border: 1px solid #007bff;
   border-radius: 10px;
+  text-decoration: none;
+  transition: color, background-color 0.3s;
 }
 
 nav a:hover,
 nav a:focus,
 nav a:active {
-  border: none;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
 }
 
 a {
   color: #007bff;
-  text-decoration: none;
 }
 
 a:hover {
@@ -81,8 +84,12 @@ a:hover {
 h1, h2, .projects__item a {
   font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 900;
   font-style: normal;
+}
+
+h2 {
+  font-size: 1.8em;
 }
 
 .container {
