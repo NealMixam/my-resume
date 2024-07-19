@@ -127,7 +127,7 @@ h1, h2, .projects__item a {
   width: 400px;
   height: 400px;
   box-sizing: border-box;
-  background: url("header__image.jpg") center/cover no-repeat;
+  background: url("header__image.JPG") center/cover no-repeat;
   border-radius: 10px;
 }
 
